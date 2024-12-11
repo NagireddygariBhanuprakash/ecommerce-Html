@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-me {
+    margin-bottom: 40px;
+}
+
+.about-me h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-me p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin-bottom: 20px;
+}
+
+.social-media h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #23527c;
+}
+
+.fa {
+    font-size: 24px;
+    margin-right: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-picture">
+            <img src="images/banner.png" alt="Profile Picture">
+        </div>
+        <div class="about-me">
+            <h1>About Me</h1>
+            <p>Hello! I'm , a passionate and driven individual with a strong interest in [Your Interests].</p>
+            <p>I'm a  with 2years of experience in serving people with good quality of acceories.</p>
+           
+        </div>
+        <div class="social-media">
+            <h2>Follow Me</h2>
+            <ul>
+                <li><a href="data:image/png;base64,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" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
